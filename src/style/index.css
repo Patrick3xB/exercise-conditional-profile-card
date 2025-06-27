@@ -1,11 +1,21 @@
+body {
+  background: #f0f2f5;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+}
 .filters {
   background: white;
-  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 .filters li {
   display: inline-block;
-  max-width: 80px;
-  padding: 3px;
+  max-width: 120px;
+  padding: 6px;
+  vertical-align: top;
 }
 .filters li label {
   display: block;
@@ -22,7 +32,7 @@
   position: relative;
   width: 300px;
   height: 350px;
-  margin: 50px auto;
+  margin: 30px auto;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
